@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\MOAB.Optix.Core.Builder\MOAB.Optix.Core.Builder.csproj" />
+		<ProjectReference Include="..\MOAB.Optix.Core.Streamer\MOAB.Optix.Core.Streamer.csproj" />
+		<ProjectReference Include="..\MOAB.Optix.Core.Syncher\MOAB.Optix.Core.Syncher.csproj" />
+	</ItemGroup>
+	
+  <Import Project="FTOptix.references" />
+</Project>
